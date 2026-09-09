@@ -1,0 +1,53 @@
+# ============================================
+#  Unreal Engine 5 - .gitignore
+# ============================================
+
+# --- Dossiers regenerables par le moteur / l'IDE ---
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+tmp/
+
+# Idem pour les plugins
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/Build/
+
+# --- Visual Studio / Rider / VS Code ---
+.vs/
+.idea/
+.vscode/
+*.sln
+*.slnx
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+*.userprefs
+*.xcodeproj/
+*.xcworkspace/
+
+# --- Fichiers de config utilisateur (locaux a chaque machine) ---
+Config/*User*.ini
+*.pdb
+*.dll
+*.exe
+*.lib
+*.obj
+*.app
+
+# --- Systeme ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*~
+
+# --- Sauvegardes / archives ---
+bak/
+*.bak
+*.tmp
